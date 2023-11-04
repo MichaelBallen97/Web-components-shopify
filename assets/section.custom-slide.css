@@ -2,8 +2,53 @@
   position: relative;
 }
 
+.swiper .swiper-slide .slider-overlay {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, .5);
+  z-index: 10;
+}
+
 .swiper .swiper-slide .slide-content {
   position: absolute;
+  z-index: 20;
+}
+
+.swiper .swiper-slide .slide-content.top {
+  top: 20px;
+}
+
+.swiper .swiper-slide .slide-content.middle {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  left: 20px;
+}
+
+.swiper .swiper-slide .slide-content.bottom {
+  bottom: 20px;
+}
+
+.swiper .swiper-slide .slide-content.left {
+  left: 20px;
+  right: auto;
+}
+
+.swiper .swiper-slide .slide-content.mid {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.swiper .swiper-slide .slide-content.right {
+  right: 20px;
+  left: auto;
 }
 
 .swiper .swiper-slide img {
