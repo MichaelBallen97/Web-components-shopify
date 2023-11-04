@@ -1,7 +1,44 @@
 {
   "sections": {
     "slider-banner": {
-      "type": "custom-slider"
+      "type": "custom-slider",
+      "blocks": {
+        "f221065b-369e-4fc5-8145-25cdc37b1911": {
+          "type": "slide",
+          "settings": {
+            "slide_text": "",
+            "slide_image": "shopify:\/\/shop_images\/couple-hug-as-they-pour-a-cup-of-coffee.jpg",
+            "link_text": "Ver más",
+            "link_url": ""
+          }
+        },
+        "413c7650-e9eb-4475-9264-f3ded427c97c": {
+          "type": "slide",
+          "settings": {
+            "slide_text": "",
+            "slide_image": "shopify:\/\/shop_images\/laptop-from-above.jpg",
+            "link_text": "Ver más",
+            "link_url": ""
+          }
+        },
+        "09e3299a-e8cc-4a09-b8df-59caa26a0281": {
+          "type": "slide",
+          "settings": {
+            "slide_text": "",
+            "slide_image": "shopify:\/\/shop_images\/breakfast-from-above.jpg",
+            "link_text": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "f221065b-369e-4fc5-8145-25cdc37b1911",
+        "413c7650-e9eb-4475-9264-f3ded427c97c",
+        "09e3299a-e8cc-4a09-b8df-59caa26a0281"
+      ],
+      "settings": {
+        "text": "Esto es texto por defecto"
+      }
     }
   },
   "order": [
